@@ -45,11 +45,11 @@ contract SkinMarketplace {
         return _balances[account];
     }
 
-    function skinPrice() external view returns (uint256) {
+    function getSkinPrice() external view returns (uint256) {
         return _skinPrice;
     }
 
-    function token() external view returns (IERC20) {
+    function getToken() external view returns (IERC20) {
         return _token;
     }
 }
